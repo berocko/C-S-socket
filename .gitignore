@@ -1,0 +1,8 @@
+# 忽略 Python 自动生成的缓存文件夹
+__pycache__/
+
+# 如果你想更全面一点，可以加上这些：
+*.py[cod]     # 忽略 .pyc, .pyo, .pyd 文件
+*$py.class    # 忽略 Jython 缓存
+.venv/        # 忽略虚拟环境文件夹
+.env          # 忽略包含密钥的环境变量文件
